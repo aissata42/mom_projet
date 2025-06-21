@@ -1,0 +1,28 @@
+# Ignorer les environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de build et distribution
+build/
+dist/
+*.egg-info/
+
+# Fichiers spécifiques à VSCode
+.vscode/
+
+# Fichiers temporaires
+*.log
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Fichiers de cache Jupyter
+.ipynb_checkpoints/
+
