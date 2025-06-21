@@ -1,5 +1,6 @@
 import nox
 
+
 @nox.session
 def tests(session):
     """Run the test suite."""
